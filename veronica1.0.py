@@ -99,7 +99,7 @@ while True:
 
     elif inp in ingoodbye:
         print("Bot: "+choice(outgoodbye)+"\n\n")
-        continue
+        break
 
     elif inp in inabtboss:
         print("Bot: "+choice(outabtboss)+"\n\n")
